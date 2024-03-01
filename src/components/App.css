@@ -1,0 +1,74 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://www.pngkey.com/png/full/8-88211_valentines-day-heart-png-free-download-valentines-hearts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.question {
+  font-size: 8em;
+  color: hsl(305, 87%, 63%);
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.question:hover {
+  transform: scale(1.4);
+}
+
+.button {
+  font-size: 4em;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+}
+
+.thanks-page {
+  position: relative;
+  height: 100vh;
+}
+
+.roses {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.thanks {
+  font-size: 5em;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+
+#no-btn {
+  position: absolute;
+  transition: 0.5s;
+}
+
+#no-btn:hover {
+  left: Math.random() * window.innerWidth + 'px';
+  top: Math.random() * window.innerHeight + 'px';
+}
+
